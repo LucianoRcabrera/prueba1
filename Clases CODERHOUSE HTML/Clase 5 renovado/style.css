@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-container{
+color: #fff;
+background-color: #5995DA;
+padding: 20px 0;
+/* display flex habilita el modo diseño de flexbox */ 
+/* sin esto el navegador ignora las propiedades de flexbox si no lo agregamos */
+display: flex;
+/* Varios Modos de flexbox */
+/* Alineacion Horizontal */
+justify-content: center;  
+/* Justify-content: center se utiliza para centrar en la pantalla */
+/* Justify-content:flex-start   lo mas a la izquierda que se pueda*/
+/* Justify-content: flex-end  lo mas a la derecha que se puede(VAMOS MILLEI)*/
+
+
+
+
+}
+
+.header{
+width: 60%;
+display: flex;
+justify-content: space-around;
+/* justify-content: space-around lo deja fachuli */
+/* Distribuye horizontalmente los elementos
+en todo su ancho(el witdh 60% en este caso) */
+
+/* Justify-content: between */
+/* Distribuye horizontalmente los elementos entre medio de los elementos */
+
+
+}
+
+.section-container{
+color:#5995DA ;
+background-color:#D6E9FE;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+.section{
+width: 60%;
+height: 500px;
+display: flex;
+justify-content: space-around;
+/* Alineacion Vertical */
+align-items: center;
+flex-wrap: wrap;
+
+}
+
+.photo-grid-container{
+display: flex;
+justify-content: center;
+
+}
+.photo-grid{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+/* flex-wrap  hace que se amolde a la pagina y no se rompa el orden*/
+flex-wrap: wrap;
+/* Si quiero hacerlo todo una fila
+flex-direction */
+ 
+
+}
+
+.first-item{
+/* Puedo cambiar el orden de como se ve
+si es un valor positivo se va lo + a la derecha posible
+y si tiene un valor negativo se va lo mas a la izquierda*/
+order: 1;
+
+}
+
+.last-item{
+    order: -1;
+}
+
+
+
+
+
+
+
+
+
+
+

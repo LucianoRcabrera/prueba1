@@ -1,0 +1,111 @@
+/*  para aplicar estilos al html se utiliza la formula */
+/*  Selector { propiedad: valor; } */
+/* Siempre que quiera aplicar es necesario escribir {} y en el medio se aplica el comando */
+
+/* Color para mi titulo */
+h1 {color: rgb(109, 31, 106);
+    background-color: aquamarine;
+    
+    /* En caso de querer cambiar la naturaleza del formato sea en bloque o en linea se utiliza el comando display */
+
+}
+/* Estilos de letra y sus varciantes se utiliza el comando font */
+.Subti{
+    font-style: italic;
+ 
+}
+/* Para aplicar formatos del texto se utiliza text */
+/* Si quiero aplicar en una lista especifica escribo las 2 partes tanto ul li o ol li */
+
+/* Estilo de texto en la lista */
+ul li {text-decoration: underline;
+
+
+}
+/* En caso de querer aplicar un estilo a solo una parte de mi parrafo se cambia el elemento reemplazandolo por class
+ */
+ /* en html se cambia el elemento que yo necesito renombrar por ejemplo p class "nombre al archivo" */
+/*  y en css se cambia el estilo usando un ."nombre del archivo" y sigue como siempre con {} */
+
+.puto { font-style: oblique;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+/*  Se puede cambiar el id tambien con el comando ID */
+/* El ID es unico mientras que el class se puede repetir */
+/* en caso de utilizar ID el comando en css pasaria a usarse # y no . como con class */
+
+/* En caso de querer modificar la distancia desde el inicio es decir pared o altura se usan 2 comandos */
+/* Margin es el comando para separar en distancia ejemplo |hola (margin 0) si uso (margin 50) quedaria |      hola
+/* Padding es el comando para separar en altura hola
+                                                    
+                                                 hola*/
+
+.parra{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  
+    color: darkgreen;
+    background-image: url(Multimedia/Fotuelas/464b5c2d-9f9a-4f1b-a7a9-5a197b0b15d2.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+/* Background es para la parte de atras de mi texto  */
+/* Con background repeat es para que la imagen no se vuelva a repetir en el texto */
+/* con Background size cover es para que la foto se acople al tamaño de texto */
+/* con Background attachment fixed es para que la imagen quede congelada y solo se mueva el texto */
+
+/* Imagenes */
+/* Para imagenes usar medidas relativas como pueden ser % */
+/* para utilizar el comando de modificar el % se utiliza width */
+
+
+
+
+
+}
+                                                 
+.julio{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

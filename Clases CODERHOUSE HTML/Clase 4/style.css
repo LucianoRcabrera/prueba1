@@ -1,0 +1,173 @@
+/*  en caso de querer usar un estilo de letra que el cliente nos da  */
+/* se utiliza la siguiente conotacion */
+/*  Regla {} 2 propiedas */
+/* @font-face{ 
+       font-family;( este determina el nombre de la fuente solo cuando usamos font face)
+         src  ;( este define donde se encuentra el archivo de la fuente o la url) */
+/*  src: url("") dentro de los " busco la url donde este el archivo de la fuente*/
+
+
+/* html o :root  */
+/* root es un pseudoelemento que me ayuda a controlar todo */
+:root{
+/* Varible+valor */
+--color-home-bordes: 4px solid green;
+--size-encabezados:44px;
+
+/* con esto se crea una variable para poder utilizar en cada modificacion(var) */
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.prueba{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 22px;
+color: blue;
+background-color: rgb(241, 189, 55);
+
+
+}
+ 
+h1{ color: rgba(113, 45, 221, 0.678);
+font-size: 2em;}
+h2{
+    color: chartreuse;
+}
+
+/* ________ Unidades de medidas________ */
+
+/*  2 unidades de medida */
+/* 1) Unidades absolutas */
+/* Son un tipo de medida fija que no cambia ni depende de otro factor */
+/* si yo le determino 22px(pulgadas) se mantiene el texto en esa cantidad por mas que yo achique la pantalla */
+
+
+/* 2)Unidades relativas */
+/* Son un tipo de medida que dependen de otro factor, Son idelaes para dispositivos con distintos tamaños */
+/* em es la unidad usada para este tipo se establece por el tamaño del navegador usualmente es 16px */
+/* 1em=16px por ende si yo quiero usar 4em daria la totalidad de 4x16px */
+
+/* en caso de querer yo establecer el valor del navegador se utiliza rem */
+
+html{
+font-size: 22px; 
+/* Tamaño base(llamado root) */
+
+;}
+
+a{
+    font-size: 3rem;
+
+}
+
+
+
+/* box model o modelo de caja */
+/* css refiere a todos los archivos como caja que su tamaño esta definido por su naturaleza */
+
+/*  si utilizo el comando padding me modifica los 4 lados de la caja */
+/* 4 tipos de padding */
+/* Padding-top(arriba)- Padding Bottom(abajo) */
+/* Padding right(derecha)---Padding Left(Izquierda) */
+
+/* el orden del padding va en top-right-bottom-left */
+/* Yo puedo con tan solo un solo comando de padding modificar los 4  */
+/* Padding: 80 80 120 30(todos con px) */
+
+h1{
+    padding: 80px 800px 80px 800px;
+border: 4px dashed rgba(0, 0, 0, 0.747);
+background-color: coral;
+
+
+}
+
+/* Border */
+/* 4 tipos de border-size+style+color */
+/* Border 4px solid blue */
+/* Lados */
+
+/* Margen */
+/* Se usa comando margin */
+
+/* Margin y padding se utilizan igual pero con una diferencia minima */
+/* Padding si quiero que mi texto crezca pero no se separe de los demas textos */
+/* Margin si quiero que mi texto crezca y se separe del resto */
+
+
+/* Position Relative  toma los elementos con el lugar en el que normalmente apareceria*/
+.relative{
+    position:relative;
+    top: 30px;
+    left: 30px;
+
+}
+/* Position Absolute toma las coordenadas de la ventana del navegador */
+.absolute{
+    position:absolute;
+    top: 60px;
+    left: 60px;
+
+
+}
+ 
+/* Position fixed sirve para que te persiga la imagen por toda la pestaña */
+.fixed{
+    position:fixed;
+    bottom: 0px;
+    right: 0px;
+
+
+
+}
+
+/* Sticky  tiene la misma funcion que fixed pero siempre y cuando llega a la cordenada en la que esta*/
+.sticky{
+    position:sticky;
+    top:0px
+    
+
+}
+.sticky{
+    font-size: larger;
+    padding: 30px 800px 30px 800px;
+    color: blueviolet;
+    background-color:rgb(128, 224, 241);
+    background-size: 50% auto;
+}
+
+.navbar{
+    display: inline;
+    background-size: 50%;
+    
+}
+
+
+
+
+
+
+
